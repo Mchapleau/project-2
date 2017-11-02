@@ -1,0 +1,19 @@
+body{
+  background-color: #87c0ec;
+}
+
+.btn{
+  position: absolute;
+  display: block;
+  transform: translate(45vw);
+  margin-top: 25px;
+}
+
+.container{
+  position: absolute;
+  display: block;
+  top: 50vh;
+  left: 50vw;
+  background-color: #fff;
+  box-shadow: 0 3px 10px -5px grey;
+}
