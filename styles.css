@@ -1,34 +1,5 @@
-body{
-  background-color: #87c0ec;
-}
-
-.btn{
-  position: absolute;
-  display: block;
-  transform: translate(45vw);
-  margin-top: 25px;
-}
-
-.container{
-  position: relative;
-  display: block;
-  background-color: #87c0ec;
-  align-self: center;
-  height: 600px;
-  width: 600px;
-  margin: auto;
-  top: 25vh;
-  transform: translateY(-10vh);
-}
-
-.row{
-  display: inline-block;
-  color: #87c0ec;
-  box-sizing: border-box;
-  margin: 0px;
-  border-style: solid;
-  height: 38px;
-  width: 38px;
-  float: left;
-  border-color: #B0E0E6;
+.center{
+  display:table;
+  margin:auto;
+  font-family: Arial, sans-serif;
 }
