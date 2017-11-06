@@ -27,4 +27,8 @@ var multiplyboxes = function(){
        x = prompt("Choose a grid size between 1 and 64");
        makesize();
    });
+
+   $('.btn2').click(function(){
+     location.reload('.container');
+   });
  });
