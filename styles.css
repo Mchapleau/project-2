@@ -8,7 +8,18 @@ body{
   font-family: Arial, sans-serif;
 }
 
-.btn-primary{
+.headerbuttons{
+  text-align: center;
+}
+
+.btn1{
+  display: inline-block;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.btn2{
+  display: inline-block;
   margin-top: 25px;
   margin-bottom: 25px;
 }
@@ -27,7 +38,21 @@ body{
 .box{
   float:left;
   display:block;
-  background-color: #AFEEEE;
+  border-color: #66A7A7;
+  border-style: solid;
+  border-width: 0.5px;
+  transition: 0s 10000s ;
+}
+
+.box:hover{
+  background-color: #3346FF;
+  transition: 0s
+}
+
+.colorbox{
+  float:left;
+  display:block;
+  background-color: #3346FF;
   border-color: #66A7A7;
   border-style: solid;
   border-width: 0.5px;

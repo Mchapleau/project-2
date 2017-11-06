@@ -1,8 +1,9 @@
+
+
 $(document).ready(function(){
   var x = 16;
   var grid = 0;
-  var resetcolor = "blue";
-  var currentcolor = "blue";
+
 
   var makesize = function() {
     if (x < 1 || x > 64 || isNaN(x) == true) {
@@ -13,18 +14,17 @@ $(document).ready(function(){
      multiplyboxes ();
    };
 };
+
 var tile = $(".box")
 var multiplyboxes = function(){
-  $(".box").not(':first').remove();
-    grid = (x * x) - 2;
+    grid = (x * x - 1) ;
     for (var i=0; i<grid; i++) {
       tile.clone().insertAfter(tile);
-        console.log(grid);
     };
 };
 
-     $('.btn-primary').click(function(){
+     $('.btn1').click(function(){
        x = prompt("Choose a grid size between 1 and 64");
        makesize();
    });
-});
+ });
